@@ -1,0 +1,93 @@
+body, html {
+    margin: 0px;
+    background: linear-gradient(45deg, rgba(27, 18, 18, 0.781), rgb(18, 83, 72)) no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    color: orangered;
+    font-weight: bold;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(26, 24, 24, 0.144);
+    margin-bottom: 10px;
+    border-radius: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: -20PX;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(255, 68, 0, 0.555);
+    display: flex;
+    justify-content: space-between;
+    width: 925px;
+    margin: auto;
+}
+
+div p {
+    margin-top: 30px;
+    font-size: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+    margin-bottom: 20px;
+}
+
+main pre {
+    font-size: 30px;
+    background-color: rgba(24, 61, 49, 0.171);
+    margin-left: 2px;
+    border-radius: 20px;
+}
+
+fieldset {
+    width: 1000px;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    color: wheat;
+    font: italic bold 20px Arial;
+}
+
+.answers {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+button{
+    text-align: center;
+    font-weight: bold;
+    color: orangered;
+    background-color: rgba(26, 24, 24, 0.144);
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    outline: none;
+}
+.ans{width: 1100px; margin-left:435px; display: flex;
+    justify-content: space-between;
+    margin-top:20px;
+}
+.ans div
+{
+  font:italic bold 15px Arial;
+  color: wheat;
+  width: 100px;
+
+}
