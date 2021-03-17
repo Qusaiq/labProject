@@ -1,8 +1,7 @@
 body, html {
-    margin: 0px;
-    background: linear-gradient(45deg, rgba(27, 18, 18, 0.781), rgb(18, 83, 72)) no-repeat;
-    height: 100%;
+    background: linear-gradient(30deg, rgba(112, 101, 101, 0.781), rgb(84, 151, 140));
     width: 100%;
+    
 }
 
 h1 {
@@ -70,7 +69,8 @@ legend {
     margin: auto;
     text-align: center;
 }
-button{
+
+button {
     text-align: center;
     font-weight: bold;
     color: orangered;
@@ -80,14 +80,67 @@ button{
     border-radius: 15px;
     outline: none;
 }
-.ans{width: 1100px; margin-left:435px; display: flex;
-    justify-content: space-between;
-    margin-top:20px;
-}
-.ans div
-{
-  font:italic bold 15px Arial;
-  color: wheat;
-  width: 100px;
 
+.ans {
+    width: 1100px;
+    margin-left: 435px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.ans div {
+    font: italic bold 15px Arial;
+    color: wheat;
+    width: 100px;
+}
+
+span ol {
+    border-radius: 20px;
+    width: 700px;
+    padding-left: 60px;
+    
+}
+span ul {
+    border-radius: 20px;
+    width: 700px;
+    padding-left: 60px;
+    
+}
+
+.ol {
+    padding-left: 200px;
+    
+    font:  "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    
+}
+.ul {
+    padding-left: 200px;
+    
+    font:  "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    
+}
+
+ol ::marker {
+    font-size: 20px;
+    color: #00b7a8;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+}
+ul ::marker {
+    font-size: 20px;
+    color: #00b7a8;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+}
+
+.olH {
+    padding-left: 200px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: orangered;
+}
+li{
+
+    font-size: 20px;
 }
