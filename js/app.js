@@ -1,9 +1,10 @@
+/* eslint-disable no-unused-vars */
 'use strict';
 let score=0;
-
+let userName=prompt('Whats your name!?');
+alert('Welcome '+userName);
 
 function qustBTN(x) {
- 
   switch (x) {
   case '1': {
     let ans1 = prompt('Qusai AGE is 24 ? (YES,Y) , (NO,N)').toUpperCase();
